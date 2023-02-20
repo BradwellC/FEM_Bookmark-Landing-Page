@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Bookmark landing page</title>
+
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./public/images/logo-bookmark.svg"
+        alt=""
+        class="navbar-brand"
+      />
+
+      <button class="navbar-toggle">
+        <img
+          style="display: none"
+          src="./public/images/icon-close.svg"
+          alt=""
+          class="icon-close"
+        />
+        <img
+          src="./public/images/icon-hamburger.svg"
+          alt=""
+          class="icon-hamburger"
+        />
+      </button>
+
+      <nav class="navbar">
+        <ul class="navbar-nav">
+          <li><a class="navbar-link" href="#">Features</a></li>
+          <li><a class="navbar-link" href="#">Pricing</a></li>
+          <li><a class="navbar-link" href="#">Contact</a></li>
+          <li><a class="navbar-btn" href="#">Login</a></li>
+        </ul>
+        <ul class="navbar-social">
+          <li>
+            <a href=""
+              ><img src="./public/images/icon-facebook.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="./public/images/icon-twitter.svg" alt="" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main--section">
+        <div class="main--section_text">
+          <h1>A Simple Bookmark Manager</h1>
+          <p>
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+
+          <button class="btn btn-chrome">Get it on Chrome</button>
+          <button class="btn btn-firefox">Get it on Firefox</button>
+        </div>
+
+        <div class="main--section_img">
+          <img src="./public/images/illustration-hero.svg" alt="" />
+          <!-- Capsule image will be added as a ::before class -->
+        </div>
+      </section>
+
+      <section class="feature--carousel">
+        <div class="feature--carousel_content">
+          <h2>Features</h2>
+          <p>
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+        </div>
+
+        <!-- Carousel Section will be here START -->
+
+        <!-- Carousel Section will be here END -->
+      </section>
+
+      <section class="download--section">
+        <div class="download--section_content">
+          <h2>Download the extension</h2>
+          <p>
+            We’ve got more browsers in the pipeline. Please do let us know if
+            you’ve got a favourite you’d like us to prioritize.
+          </p>
+        </div>
+
+        <div class="download--section_brower">
+          <div class="chrome">
+            <img src="" alt="" />
+            <h3>Add to Chrome</h3>
+            <p>Minimum version 62</p>
+            <hr />
+            <button class="btn btn-extension">Add & Install Extension</button>
+          </div>
+
+          <div class="firefox">
+            <img src="" alt="" />
+            <h3>Add to Firefox</h3>
+            <p>Minimum version 55</p>
+            <hr />
+            <button class="btn btn-extension">Add & Install Extension</button>
+          </div>
+
+          <div class="opera">
+            <img src="" alt="" />
+            <h3>Add to Opera</h3>
+            <p>Minimum version 46</p>
+            <hr />
+            <button class="btn btn-extension">Add & Install Extension</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq--section">
+        <div class="faq--section_content">
+          <h2>Frequently Asked Questions</h2>
+          <p>
+            Here are some of our FAQs. If you have any other questions you’d
+            like answered please feel free to email us.
+          </p>
+        </div>
+
+        <!-- Accordion Section goes here START -->
+
+        <!-- Accordion Section goes here END -->
+      </section>
+
+      <section class="contact--section">
+        <div class="contact--section_content">
+          <h5>35,000+ already joined</h5>
+          <h2>Stay up-to-date with what we’re doing</h2>
+        </div>
+
+        <form class="contact--section_form">
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+          <button class="btn-form">Contact Us</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="footer-navbar">
+        <ul>
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social">
+        <img
+          class="social--icons"
+          src="./public/images/icon-facebook.svg"
+          alt=""
+        />
+        <img
+          class="social--icons"
+          src="./public/images/icon-twitter.svg"
+          alt=""
+        />
+      </div>
+    </footer>
+  </body>
+</html>
